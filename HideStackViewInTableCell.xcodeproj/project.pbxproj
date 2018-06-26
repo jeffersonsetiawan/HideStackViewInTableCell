@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C81A6E518B523D92361CB92 /* Pods_HideStackViewInTableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231EDCDCAD54924C3A2B1046 /* Pods_HideStackViewInTableCell.framework */; };
 		E570AF4B20E2050900F1036D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570AF4A20E2050900F1036D /* AppDelegate.swift */; };
 		E570AF4D20E2050900F1036D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570AF4C20E2050900F1036D /* ViewController.swift */; };
 		E570AF5020E2050900F1036D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E570AF4E20E2050900F1036D /* Main.storyboard */; };
 		E570AF5220E2050E00F1036D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E570AF5120E2050E00F1036D /* Assets.xcassets */; };
 		E570AF5520E2050E00F1036D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E570AF5320E2050E00F1036D /* LaunchScreen.storyboard */; };
+		E570AF5F20E2192400F1036D /* ClassRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570AF5D20E2192400F1036D /* ClassRoomViewController.swift */; };
+		E570AF6020E2192400F1036D /* ClassRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E570AF5E20E2192400F1036D /* ClassRoomViewController.xib */; };
+		E570AF6320E2198200F1036D /* ClassRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570AF6220E2198200F1036D /* ClassRoom.swift */; };
+		E570AF6720E21AEF00F1036D /* ClassRoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570AF6520E21AEF00F1036D /* ClassRoomTableViewCell.swift */; };
+		E570AF6820E21AEF00F1036D /* ClassRoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E570AF6620E21AEF00F1036D /* ClassRoomTableViewCell.xib */; };
+		E570AF6B20E21BEB00F1036D /* StudentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E570AF6A20E21BEB00F1036D /* StudentView.xib */; };
+		E570AF6D20E21BF300F1036D /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570AF6C20E21BF300F1036D /* StudentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231EDCDCAD54924C3A2B1046 /* Pods_HideStackViewInTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideStackViewInTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF17A21F56378D7705D9E737 /* Pods-HideStackViewInTableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideStackViewInTableCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-HideStackViewInTableCell/Pods-HideStackViewInTableCell.release.xcconfig"; sourceTree = "<group>"; };
 		E570AF4720E2050900F1036D /* HideStackViewInTableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideStackViewInTableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E570AF4A20E2050900F1036D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E570AF4C20E2050900F1036D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		E570AF5120E2050E00F1036D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E570AF5420E2050E00F1036D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E570AF5620E2050E00F1036D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E570AF5D20E2192400F1036D /* ClassRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomViewController.swift; sourceTree = "<group>"; };
+		E570AF5E20E2192400F1036D /* ClassRoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassRoomViewController.xib; sourceTree = "<group>"; };
+		E570AF6220E2198200F1036D /* ClassRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoom.swift; sourceTree = "<group>"; };
+		E570AF6520E21AEF00F1036D /* ClassRoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomTableViewCell.swift; sourceTree = "<group>"; };
+		E570AF6620E21AEF00F1036D /* ClassRoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassRoomTableViewCell.xib; sourceTree = "<group>"; };
+		E570AF6A20E21BEB00F1036D /* StudentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentView.xib; sourceTree = "<group>"; };
+		E570AF6C20E21BF300F1036D /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		F2F75897B40E751064A12BFF /* Pods-HideStackViewInTableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideStackViewInTableCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HideStackViewInTableCell/Pods-HideStackViewInTableCell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C81A6E518B523D92361CB92 /* Pods_HideStackViewInTableCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368E6E1235E5C7DF34D95E27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2F75897B40E751064A12BFF /* Pods-HideStackViewInTableCell.debug.xcconfig */,
+				DF17A21F56378D7705D9E737 /* Pods-HideStackViewInTableCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70B32BB6AAF047AE182C0A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231EDCDCAD54924C3A2B1046 /* Pods_HideStackViewInTableCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E570AF3E20E2050900F1036D = {
 			isa = PBXGroup;
 			children = (
 				E570AF4920E2050900F1036D /* HideStackViewInTableCell */,
 				E570AF4820E2050900F1036D /* Products */,
+				368E6E1235E5C7DF34D95E27 /* Pods */,
+				70B32BB6AAF047AE182C0A5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +92,7 @@
 		E570AF4920E2050900F1036D /* HideStackViewInTableCell */ = {
 			isa = PBXGroup;
 			children = (
+				E570AF5C20E2190C00F1036D /* ClassRoom */,
 				E570AF4A20E2050900F1036D /* AppDelegate.swift */,
 				E570AF4C20E2050900F1036D /* ViewController.swift */,
 				E570AF4E20E2050900F1036D /* Main.storyboard */,
@@ -64,6 +103,44 @@
 			path = HideStackViewInTableCell;
 			sourceTree = "<group>";
 		};
+		E570AF5C20E2190C00F1036D /* ClassRoom */ = {
+			isa = PBXGroup;
+			children = (
+				E570AF6920E21BE100F1036D /* View */,
+				E570AF6420E21AD200F1036D /* ViewCell */,
+				E570AF6120E2197900F1036D /* Model */,
+				E570AF5D20E2192400F1036D /* ClassRoomViewController.swift */,
+				E570AF5E20E2192400F1036D /* ClassRoomViewController.xib */,
+			);
+			path = ClassRoom;
+			sourceTree = "<group>";
+		};
+		E570AF6120E2197900F1036D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E570AF6220E2198200F1036D /* ClassRoom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E570AF6420E21AD200F1036D /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E570AF6520E21AEF00F1036D /* ClassRoomTableViewCell.swift */,
+				E570AF6620E21AEF00F1036D /* ClassRoomTableViewCell.xib */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		E570AF6920E21BE100F1036D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E570AF6A20E21BEB00F1036D /* StudentView.xib */,
+				E570AF6C20E21BF300F1036D /* StudentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E570AF5920E2050E00F1036D /* Build configuration list for PBXNativeTarget "HideStackViewInTableCell" */;
 			buildPhases = (
+				5D260802D9A2B2FBCC7402EC /* [CP] Check Pods Manifest.lock */,
 				E570AF4320E2050900F1036D /* Sources */,
 				E570AF4420E2050900F1036D /* Frameworks */,
 				E570AF4520E2050900F1036D /* Resources */,
+				5C8349B2143D03FF90A26B1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +203,66 @@
 			files = (
 				E570AF5520E2050E00F1036D /* LaunchScreen.storyboard in Resources */,
 				E570AF5220E2050E00F1036D /* Assets.xcassets in Resources */,
+				E570AF6020E2192400F1036D /* ClassRoomViewController.xib in Resources */,
 				E570AF5020E2050900F1036D /* Main.storyboard in Resources */,
+				E570AF6B20E21BEB00F1036D /* StudentView.xib in Resources */,
+				E570AF6820E21AEF00F1036D /* ClassRoomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C8349B2143D03FF90A26B1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HideStackViewInTableCell/Pods-HideStackViewInTableCell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HideStackViewInTableCell/Pods-HideStackViewInTableCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D260802D9A2B2FBCC7402EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HideStackViewInTableCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E570AF4320E2050900F1036D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E570AF6720E21AEF00F1036D /* ClassRoomTableViewCell.swift in Sources */,
 				E570AF4D20E2050900F1036D /* ViewController.swift in Sources */,
+				E570AF6320E2198200F1036D /* ClassRoom.swift in Sources */,
+				E570AF5F20E2192400F1036D /* ClassRoomViewController.swift in Sources */,
+				E570AF6D20E21BF300F1036D /* StudentView.swift in Sources */,
 				E570AF4B20E2050900F1036D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +405,7 @@
 		};
 		E570AF5A20E2050E00F1036D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F75897B40E751064A12BFF /* Pods-HideStackViewInTableCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +423,7 @@
 		};
 		E570AF5B20E2050E00F1036D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF17A21F56378D7705D9E737 /* Pods-HideStackViewInTableCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
