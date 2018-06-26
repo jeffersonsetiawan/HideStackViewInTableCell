@@ -11,7 +11,7 @@ import Foundation
 public struct ClassRoom {
     public let id: Int
     public let name: String
-    public let isActive: Bool
+    public var isActive: Bool
     public let students: [Student]
 }
 

@@ -34,8 +34,8 @@ class ClassRoomViewController: UIViewController {
     private func setupTableView() {
         let nib = UINib(nibName: "ClassRoomTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "ClassRoomTableViewCell")
-        tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 50
+//        tableView.rowHeight = UITableViewAutomaticDimension
+//        tableView.estimatedRowHeight = 50
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -43,6 +43,13 @@ class ClassRoomViewController: UIViewController {
 
 extension ClassRoomViewController: UITableViewDelegate, UITableViewDataSource {
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if classRooms[indexPath.row].isActive {
+            return UITableViewAutomaticDimension
+        } else {
+            return 74
+        }
+    }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -57,9 +64,12 @@ extension ClassRoomViewController: UITableViewDelegate, UITableViewDataSource {
         }
         let classRoom = self.classRooms[indexPath.row]
         cell.setup(classRoom: classRoom, toggleInProcess: {
-            self.tableView.beginUpdates()
         }) {
+            self.classRooms[indexPath.row].isActive = !self.classRooms[indexPath.row].isActive
+//            UIView.setAnimationsEnabled(false)
+            self.tableView.beginUpdates()
             self.tableView.endUpdates()
+//            UIView.setAnimationsEnabled(true)
         }
         return cell
     }
